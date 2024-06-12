@@ -8,3 +8,4 @@ From the [Skillfactory Data Science course](https://skillfactory.ru/data-scienti
 * [Проект 1: Угадываем число за минимальное количество попыток](https://github.com/lexx1207/data_science_project/tree/main/project_1)
 * [Проект 2:_Анализ резюме из Head Hunter](https://github.com/lexx1207/data_science_project/tree/main/Project_2)
 * [Проект 3:_Анализ резюме из Head Hunter(SQL)](https://github.com/lexx1207/data_science_project/tree/main/Project_3)
+[Проект 4:_Прогнозирование длительности поездки на такси](https://github.com/lexx1207/data_science_project/tree/main/Project_4)
