@@ -9,3 +9,4 @@ From the [Skillfactory Data Science course](https://skillfactory.ru/data-scienti
 * [Проект 2:_Анализ резюме из Head Hunter](https://github.com/lexx1207/data_science_project/tree/main/Project_2)
 * [Проект 3:_Анализ резюме из Head Hunter(SQL)](https://github.com/lexx1207/data_science_project/tree/main/Project_3)
 * [Проект 4:_Прогнозирование длительности поездки на такси](https://github.com/lexx1207/data_science_project/tree/main/Project_4)
+* [Проект 5:_Сегментация клиентов на основе их покупательской способности](https://github.com/lexx1207/data_science_project/tree/main/Project_5)
