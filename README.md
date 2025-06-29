@@ -11,3 +11,7 @@ From the [Skillfactory Data Science course](https://skillfactory.ru/data-scienti
 * [Проект 4:_Прогнозирование длительности поездки на такси](https://github.com/lexx1207/data_science_project/tree/main/Project_4)
 * [Проект 5:_Сегментация клиентов на основе их покупательской способности](https://github.com/lexx1207/data_science_project/tree/main/Project_5)
 * [Итоговый проект:_Бриф “Агентство недвижимости”](https://github.com/lexx1207/data_science_project/tree/main/diplom1)
+
+# My Computer vision projects
+
+* [Проект 4:_Перенос стиля](https://github.com/lexx1207/data_science_project/tree/main/CV_project_4)
