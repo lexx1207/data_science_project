@@ -7,7 +7,7 @@ import torchvision.utils as utils
 from utils.utils import img_resize, load_segment
 import numpy as np
 from models.RevResNet import RevResNet
-def capvstn(CONTENT_IMAGE = 'example_image/content/000000000298.jpg', STYLE_IMAGE = 'example_image/style/7.jpg',OUT_DIR = 'out_content'):
+def capvstn(CONTENT_IMAGE = '/mount/src/data_science_project/CV_project_4/example_image/content/000000000298.jpg', STYLE_IMAGE = '/mount/src/data_science_project/CV_project_4/example_image/style/7.jpg',OUT_DIR = '/mount/src/data_science_project/CV_project_4/out_content'):
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 
@@ -22,7 +22,7 @@ def capvstn(CONTENT_IMAGE = 'example_image/content/000000000298.jpg', STYLE_IMAG
     # Reversible Network
     
     RevNetwork = RevResNet(nBlocks=[10, 10, 10], nStrides=[1, 2, 2], nChannels=[16, 64, 256], in_channel=3, mult=4, hidden_dim=64, sp_steps=1)
-    PATH_TO_MODEL = 'chkpnts/model_image.pt'
+    PATH_TO_MODEL = '/mount/src/data_science_project/CV_project_4/chkpnts/model_image.pt'
     state_dict = torch.load(PATH_TO_MODEL)
     RevNetwork.load_state_dict(state_dict['state_dict'])
     RevNetwork = RevNetwork.to(device)
