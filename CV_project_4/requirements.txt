@@ -1,0 +1,2 @@
+streamlit-image-select==0.6.0
+torchvision==0.22.0
