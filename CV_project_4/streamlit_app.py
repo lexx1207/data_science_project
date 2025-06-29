@@ -9,9 +9,9 @@ from models.RevResNet import RevResNet
 from models.adainnet import Model, VGGEncoder, RC, Decoder, denorm
 
 st.title('Style Transfer')
-content_folder = 'example_image/content/'
-style_folder = 'example_image/style/'
-output_image = 'out_content/output.png'
+content_folder = '/mount/src/data_science_project/CV_project_4/example_image/content/'
+style_folder = '/mount/src/data_science_project/CV_project_4/example_image/style/'
+output_image = '/mount/src/data_science_project/CV_project_4/out_content/output.png'
 content_files = []
 style_files = []
 for file in os.listdir(content_folder):
