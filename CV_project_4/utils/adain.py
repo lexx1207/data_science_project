@@ -29,7 +29,7 @@ def adain(CONTENT_IMAGE ='/mount/src/data_science_project/CV_project_4/example_i
     else:
         device = "cpu"
     PATH_TO_MODEL = '/mount/src/data_science_project/CV_project_4/chkpnts/full_model.pth'
-    model = torch.load(PATH_TO_MODEL, weights_only=False)
+    model = torch.load(PATH_TO_MODEL, weights_only=False, map_location=torch.device('cpu'))
     model = model.to(device)
     model.eval()
     content_image = Image.open(CONTENT_IMAGE).convert("RGB") 
