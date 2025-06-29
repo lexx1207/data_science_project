@@ -23,7 +23,7 @@ for file in os.listdir(style_folder):
 
 
 img1 = image_select("Select image", content_files)
-
+st.write(img1)
 
 img2 = image_select("Select image style", style_files)
 
