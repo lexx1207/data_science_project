@@ -23,12 +23,12 @@ from torchvision.utils import save_image, make_grid
 from torchvision import transforms
 from torchvision import models
 
-def adain(CONTENT_IMAGE = '/home/lexx/ComputerVision/project-4/example_image/content/000000000298.jpg', STYLE_IMAGE = '//home/lexx/ComputerVision/project-4/example_image/style/7.jpg',OUT_DIR = '/home/lexx/ComputerVision/project-4/out_content'):
+def adain(CONTENT_IMAGE ='example_image/content/000000000298.jpg', STYLE_IMAGE = 'example_image/style/7.jpg',OUT_DIR = 'out_content'):
     if torch.cuda.is_available():
         device = torch.device("cuda")
     else:
         device = "cpu"
-    PATH_TO_MODEL = '/home/lexx/ComputerVision/project-4/chkpnts/full_model.pth'
+    PATH_TO_MODEL = 'chkpnts/full_model.pth'
     model = torch.load(PATH_TO_MODEL, weights_only=False)
     model = model.to(device)
     model.eval()
