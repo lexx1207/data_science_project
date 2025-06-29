@@ -1,3 +1,5 @@
 streamlit-image-select==0.6.0
 torchvision==0.22.0
 split-folders==0.5.1
+matplotlib==3.10.3
+matplotlib-inline==0.1.7
