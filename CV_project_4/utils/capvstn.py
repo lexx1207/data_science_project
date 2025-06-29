@@ -23,8 +23,8 @@ def capvstn(CONTENT_IMAGE = '/mount/src/data_science_project/CV_project_4/exampl
     
     RevNetwork = RevResNet(nBlocks=[10, 10, 10], nStrides=[1, 2, 2], nChannels=[16, 64, 256], in_channel=3, mult=4, hidden_dim=64, sp_steps=1)
     PATH_TO_MODEL = '/mount/src/data_science_project/CV_project_4/chkpnts/model_image.pt'
-    state_dict = torch.load(PATH_TO_MODEL)
-    RevNetwork.load_state_dict(state_dict['state_dict'],map_location=torch.device('cpu'))
+    state_dict = torch.load(PATH_TO_MODEL,map_location=torch.device('cpu'))
+    RevNetwork.load_state_dict(state_dict['state_dict'])
     RevNetwork = RevNetwork.to(device)
     RevNetwork.eval()
     
