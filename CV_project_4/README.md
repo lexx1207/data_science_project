@@ -6,6 +6,6 @@
 2. статья Linfeng Wen, Chengying Gao, Changqing Zou  [CAP-VSTNet: Content Affinity Preserved Versatile Style Transfer] (https://arxiv.org/abs/2303.17867) проект одного из авторов статьи на [github](https://github.com/linfengWen98/CAP-VSTNet).
 
 Демонстрация полученных результатов реализована с помощью steamlit.
-
+https://cvproject4-h9rul5x5jcb4kmplzx7v4q.streamlit.app/
 
 
