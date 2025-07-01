@@ -15,3 +15,4 @@ From the [Skillfactory Data Science course](https://skillfactory.ru/data-scienti
 # My Computer vision projects
 
 * [Проект 4:_Перенос стиля](https://github.com/lexx1207/data_science_project/tree/main/CV_project_4)
+* [Итоговый проект:_Виртуальный тренер - оценка позы.](https://github.com/lexx1207/data_science_project/tree/main/diplom2_1)

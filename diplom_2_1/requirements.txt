@@ -1,0 +1,8 @@
+torchvision==0.22.0
+split-folders==0.5.1
+matplotlib==3.10.3
+matplotlib-inline==0.1.7
+tqdm==4.67.1
+scipy==1.15.2
+opencv-python==4.11.0.86
+
