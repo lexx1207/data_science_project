@@ -9,7 +9,6 @@ import math
 from PIL import Image
 import numpy as np
 import matplotlib.pyplot as plt
-%matplotlib inline
 from openpose.body.estimator import BodyPoseEstimator
 from openpose.utils import draw_body_connections, draw_keypoints
 
