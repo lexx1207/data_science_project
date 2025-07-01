@@ -2,7 +2,7 @@
 import streamlit as st
 import os
 from PIL import Image
-from src.open_pose import open_pose
+from utils.open_pose import open_pose
 from openpose.body.estimator import BodyPoseEstimator
 from openpose.utils import draw_body_connections, draw_keypoints
 
