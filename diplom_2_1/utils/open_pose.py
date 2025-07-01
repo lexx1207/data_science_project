@@ -193,7 +193,7 @@ def open_pose(ex = str(1), path_coach = '/mount/src/data_science_project/diplom_
         full_filename_model = path_coach + 'frames/' + str(filename)
         img_user = Image.open(full_filename_user).convert('RGB')
         img_model = Image.open(full_filename_model).convert('RGB')
-        img_res = draw_frames(img_user, i-1)
+        img_res = draw_frames(img_user, i-1,cosine_sim)
         img_res_model = draw_frames(img_model, i-1, cosine_sim)
         list_img_user.append(img_res)
         list_img_model.append(img_res_model)
